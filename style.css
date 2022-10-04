@@ -57,8 +57,9 @@ hr {
 }
 
 .display {
-    padding: .85em 1em;
-    margin-top: 1.5em;
+    /* padding: .85em 1em; */
+    padding: 2em;
+    margin-top: 2em;
     width: 50%;
     background-color: #2F3E53;
     border-radius: 5px;
@@ -77,6 +78,7 @@ hr {
 @media (min-width: 500px) {
     .display {
         font-size: 12px;
+        padding: 1.5em;
     }
 }
 
