@@ -82,6 +82,10 @@ hr {
         font-size: 12px;
         padding: 1.5em;
     }
+    p {
+        padding: 1em;
+        font-size: 11px;
+    }
 }
 
 
