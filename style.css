@@ -62,12 +62,24 @@ hr {
     width: 50%;
     background-color: #2F3E53;
     border-radius: 5px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 
 .display-one {
     margin-right: 1em;
 }
+
+
+@media (min-width: 500px) {
+    .display {
+        font-size: 12px;
+    }
+}
+
 
 
 
