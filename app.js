@@ -7,15 +7,16 @@ const displayPasswordOne = document.querySelector('.display-one');
 const displayPasswordTwo = document.querySelector('.display-two');
 const button = document.querySelector('p');
 
-
+// generate password
 
 function generateRandomPassword(arr, num) {
 
     const randomPasswordOne = [...arr].sort(() => 0.5 - Math.random());
-    return randomPasswordOne.slice(0, num);  
+    const fromArrayToString = randomPasswordOne.join('');
+    return fromArrayToString.slice(0, num);   
 }
 
-// click button to generate password
+// click button to render password
 
 function clickButton () {
 
