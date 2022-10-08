@@ -57,17 +57,37 @@ hr {
 }
 
 .display {
-    padding: .85em 1em;
-    margin-top: 1.5em;
+    /* padding: .85em 1em; */
+    padding: 2em;
+    margin-top: 2em;
     width: 50%;
+    color: #13ca8d;
+    font-weight: bold;
     background-color: #2F3E53;
     border-radius: 5px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 
 .display-one {
     margin-right: 1em;
 }
+
+
+@media (min-width: 500px) {
+    .display {
+        font-size: 12px;
+        padding: 1.5em;
+    }
+    p {
+        padding: 1em;
+        font-size: 11px;
+    }
+}
+
 
 
 
